@@ -1,0 +1,174 @@
+
+.nav-logo{
+  width:100%;
+  height:80px;
+  display:block;
+  background-color:#000;
+  margin-bottom:2.5rem;
+}
+.nav-logo a{
+  height: inherit;
+}
+.nav-logo img{
+  margin-top: 0;
+  padding: 4px 2px;
+  position: relative;
+  width:30%;
+  height: inherit;
+  max-height: inherit;
+  float: left;
+}
+
+table.format{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #bfbfbf;
+}
+tr, td {
+    border: 1px solid #bfbfbf;
+}
+table.format tbody tr td td{
+  width: auto;
+}
+td p{
+  color: white;
+}
+table.format tbody tr td:nth-child(odd){
+  background-color:  #666666;
+}
+@media screen and (max-width: 760px) {
+ .nav-logo a img{
+   width: 30%;
+ }
+}
+@media screen and (max-width: 530px) {
+ .nav-logo a img{
+   width: 40%;
+ }
+}
+a:visited{
+  text-decoration: none;
+}
+
+.top-right {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.links > a {
+    color: #FFFFFF;
+    padding: 5px;
+    /* font-size: 18px; */
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main{
+  width: 70%;
+  margin-left: 15%;
+  /* font-size: 1.7rem; */
+}
+.main div.btn_Group{
+  width: inherit;
+  align-content: center;
+}
+
+/*Tabla de Issue*/
+.I-Panel{
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 8px 6px 20px 0 rgba(200, 200, 200, 0.24);
+}
+.I-bs{
+  color: #ffa31a;
+}
+h5{
+  text-align: center;
+}
+.n-input{
+  width: auto;
+  padding:8px;
+  display:block;
+  border:none;
+  overflow: scroll;
+  border-bottom:1px solid #ccc;width:100%
+}
+div.container p{
+  margin: 0;
+  padding:10px 4px;
+  /* font-size: 1.2rem; */
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.Panel{
+  border-left: 2.5px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(200, 200, 200, 0.24);
+}
+h1{
+  padding:1vw;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  /* font-size: 2rem; */
+
+}
+h2{
+  padding: 1vw;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  /* font-size: 1.8rem; */
+}
+h3{
+  text-align: center;
+  padding: .8vw;
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 1.4rem; */
+}
+input{
+  width: 100%;
+  height: auto;
+  margin: none;
+  padding: 8px;
+  /* font-size:  1rem; */
+  border: none;
+}
+.encabezado{
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+textarea{
+  margin: 0;
+  border: 0;
+  padding: 8px;
+  width: 100%;
+  /* font-size: 1rem; */
+}
+@media screen and (max-width: 890px) {
+ .main{
+   width: 94%;
+   margin-left: 3%;
+ }
+@media screen and (max-width: 530px) {
+    .main{
+      width: 100%;
+      margin:0;
+    }
+}
+.btn_Le{
+  width: 49%;
+  float: left;
+  padding: .5rem;
+}
+.btn_Ri{
+  width: 49%;
+  float: right;
+  padding: .5rem;
+}
+.info{
+  text-align: center;
+  /* font-size: .8rem; */
+  font-family: sans-serif;
+}
+}

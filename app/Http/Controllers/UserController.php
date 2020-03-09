@@ -9,12 +9,12 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-    public function webservice(Request $request)
-    {
+    // public function webservice(Request $request)
+    // {
         
-        $client   = $request['input'];
-        $password = $request['pass']; 
-    }
+    //     $client   = $request['input'];
+    //     $password = $request['pass']; 
+    // }
     
     /**
      * Display a listing of the resource.

@@ -36,4 +36,4 @@ Route::post('/home/usuario/destroy','UserController@destroy');
 
 Route::post('/home/usuario/edit','UserController@edit');
 
-Route::post('webservice', 'UserController@webservice');
+// Route::post('webservice', 'UserController@webservice');
